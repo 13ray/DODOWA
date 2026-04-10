@@ -100,16 +100,6 @@ const FAQPage: React.FC<FAQPageProps> = ({ t }) => {
             </div>
           )}
         </div>
-
-        {/* Contact Support */}
-        <div className="mt-24 p-12 bg-neon-green text-dodowa-black text-center">
-          <MessageCircle size={40} className="mx-auto mb-6" />
-          <h3 className="text-2xl font-display uppercase mb-4">Still have questions?</h3>
-          <p className="font-medium mb-8 opacity-80">Our team is here to help you find the right support for your movement.</p>
-          <button className="bg-dodowa-black text-neon-green px-10 py-4 font-bold uppercase tracking-widest text-xs hover:bg-black/90 transition-all flex items-center gap-2 mx-auto">
-            Contact Support <ArrowRight size={14} />
-          </button>
-        </div>
       </div>
     </div>
   );

@@ -33,13 +33,13 @@ const TechPage: React.FC<TechPageProps> = ({ t, onShop }) => {
   ];
 
   const images = [
-    "https://images.unsplash.com/photo-1517438476312-10d79c077509?auto=format&fit=crop&q=80&w=800",
-    "https://images.unsplash.com/photo-1546519638-68e109498ffc?auto=format&fit=crop&q=80&w=800",
-    "https://images.unsplash.com/photo-1591117207239-788cd82e427d?auto=format&fit=crop&q=80&w=800",
-    "https://images.unsplash.com/photo-1508098682722-e99c43a406b2?auto=format&fit=crop&q=80&w=800",
-    "https://images.unsplash.com/photo-1582719201931-76395b09e209?auto=format&fit=crop&q=80&w=800",
-    "https://images.unsplash.com/photo-1548690312-e3b507d17a47?auto=format&fit=crop&q=80&w=800",
-    "https://images.unsplash.com/photo-1515886657613-9f3515b0c78f?auto=format&fit=crop&q=80&w=800"
+    "https://picsum.photos/seed/dodowa-tech-knitted/800/600",
+    "https://picsum.photos/seed/dodowa-tech-compression/800/600",
+    "https://picsum.photos/seed/dodowa-tech-breathable/800/600",
+    "https://picsum.photos/seed/dodowa-tech-recovery/800/600",
+    "https://picsum.photos/seed/dodowa-tech-taping/800/600",
+    "https://picsum.photos/seed/dodowa-tech-sport/800/600",
+    "https://picsum.photos/seed/dodowa-tech-style/800/600"
   ];
 
   useEffect(() => {

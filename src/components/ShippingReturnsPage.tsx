@@ -232,24 +232,6 @@ const ShippingReturnsPage: React.FC<ShippingReturnsPageProps> = ({ t }) => {
               ))}
             </div>
           </section>
-
-          {/* Contact Support */}
-          <section id="support" className="scroll-mt-32 text-center">
-            <div className="max-w-2xl mx-auto">
-              <div className="w-20 h-20 rounded-full bg-neon-green/10 border border-neon-green/20 flex items-center justify-center text-neon-green mx-auto mb-8">
-                <Mail size={32} />
-              </div>
-              <h2 className="text-4xl font-display uppercase mb-6">{sr.support.title}</h2>
-              <p className="text-lg text-[var(--color-text-primary)]/60 mb-8">{sr.support.responseTime}</p>
-              <div className="inline-block px-8 py-4 bg-[var(--color-bg-secondary)] border border-neon-green text-neon-green text-xl font-display mb-12">
-                {sr.support.email}
-              </div>
-              <br />
-              <button className="bg-neon-green text-dodowa-black px-12 py-4 font-bold uppercase tracking-widest text-xs hover:glow-green transition-all">
-                {sr.support.cta}
-              </button>
-            </div>
-          </section>
         </div>
       </div>
     </div>

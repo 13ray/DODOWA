@@ -29,12 +29,12 @@ export const products: Product[] = [
     sport: ['basketball', 'running', 'football'],
     colors: ['black', 'white', 'gray'],
     useCase: ['protection', 'support'],
-    image: 'https://images.unsplash.com/photo-1546519638-68e109498ffc?auto=format&fit=crop&q=80&w=800',
+    image: 'https://picsum.photos/seed/dodowa-p1-main/800/1000',
     images: [
-      'https://images.unsplash.com/photo-1546519638-68e109498ffc?auto=format&fit=crop&q=80&w=800',
-      'https://images.unsplash.com/photo-1597452485669-2c7bb5fef90d?auto=format&fit=crop&q=80&w=800',
-      'https://images.unsplash.com/photo-1517836357463-d25dfeac3438?auto=format&fit=crop&q=80&w=800',
-      'https://images.unsplash.com/photo-1517438984742-1262db08379e?auto=format&fit=crop&q=80&w=800'
+      'https://picsum.photos/seed/dodowa-p1-main/800/1000',
+      'https://picsum.photos/seed/dodowa-p1-detail-1/800/1000',
+      'https://picsum.photos/seed/dodowa-p1-detail-2/800/1000',
+      'https://picsum.photos/seed/dodowa-p1-wearing/800/1000'
     ],
     tag: 'Best Seller',
     description: 'Engineered for elite performance, the Panda 3D Knitted Knee Support provides targeted compression and stability without sacrificing mobility. The advanced 3D knitting technology ensures a perfect anatomical fit.',
@@ -59,10 +59,10 @@ export const products: Product[] = [
     sport: ['basketball', 'frisbee'],
     colors: ['neon-green', 'pink', 'black'],
     useCase: ['performance', 'protection'],
-    image: 'https://images.unsplash.com/photo-1546519638-68e109498ffc?auto=format&fit=crop&q=80&w=800',
+    image: 'https://picsum.photos/seed/dodowa-p2-main/800/1000',
     images: [
-      'https://images.unsplash.com/photo-1546519638-68e109498ffc?auto=format&fit=crop&q=80&w=800',
-      'https://images.unsplash.com/photo-1597452485669-2c7bb5fef90d?auto=format&fit=crop&q=80&w=800'
+      'https://picsum.photos/seed/dodowa-p2-main/800/1000',
+      'https://picsum.photos/seed/dodowa-p2-detail-1/800/1000'
     ],
     tag: 'New',
     description: 'Vibrant performance meets professional protection. Our Color Series knee supports offer the same high-level stability with a bold aesthetic for athletes who want to stand out.',
@@ -156,9 +156,10 @@ export const products: Product[] = [
     sport: ['running', 'basketball', 'football'],
     colors: ['black', 'white', 'neon-green'],
     useCase: ['protection', 'support'],
-    image: 'https://images.unsplash.com/photo-1591117207239-788cd82e427d?auto=format&fit=crop&q=80&w=800',
+    image: 'https://picsum.photos/seed/dodowa-p6-main/800/1000',
     images: [
-      'https://images.unsplash.com/photo-1591117207239-788cd82e427d?auto=format&fit=crop&q=80&w=800'
+      'https://picsum.photos/seed/dodowa-p6-main/800/1000',
+      'https://picsum.photos/seed/dodowa-p6-detail/800/1000'
     ],
     description: 'Cohesive bandage that sticks to itself, not to skin or hair. Perfect for quick wrapping and controlled compression.',
     features: [
@@ -179,9 +180,10 @@ export const products: Product[] = [
     sport: ['running'],
     colors: ['neon-green', 'white'],
     useCase: ['performance', 'protection'],
-    image: 'https://images.unsplash.com/photo-1591117207239-788cd82e427d?auto=format&fit=crop&q=80&w=800',
+    image: 'https://picsum.photos/seed/dodowa-p7-main/800/1000',
     images: [
-      'https://images.unsplash.com/photo-1591117207239-788cd82e427d?auto=format&fit=crop&q=80&w=800'
+      'https://picsum.photos/seed/dodowa-p7-main/800/1000',
+      'https://picsum.photos/seed/dodowa-p7-action/800/1000'
     ],
     tag: 'New',
     description: 'Stay visible and supported during night runs. Our reflective tape combines kinesiology benefits with high-visibility elements.',
@@ -203,9 +205,9 @@ export const products: Product[] = [
     sport: ['ski'],
     colors: ['pink', 'blue', 'black'],
     useCase: ['protection', 'performance'],
-    image: 'https://images.unsplash.com/photo-1551698618-1dfe5d97d256?auto=format&fit=crop&q=80&w=800',
+    image: 'https://picsum.photos/seed/dodowa-p8-main/800/1000',
     images: [
-      'https://images.unsplash.com/photo-1551698618-1dfe5d97d256?auto=format&fit=crop&q=80&w=800'
+      'https://picsum.photos/seed/dodowa-p8-main/800/1000'
     ],
     description: 'Extra-strength adhesive designed for cold and wet conditions. Ideal for winter sports and high-intensity activities.',
     features: [
@@ -226,9 +228,10 @@ export const products: Product[] = [
     sport: ['basketball', 'running'],
     colors: ['black', 'neon-green'],
     useCase: ['performance', 'support'],
-    image: 'https://images.unsplash.com/photo-1591117207239-788cd82e427d?auto=format&fit=crop&q=80&w=800',
+    image: 'https://picsum.photos/seed/dodowa-p9-main/800/1000',
     images: [
-      'https://images.unsplash.com/photo-1591117207239-788cd82e427d?auto=format&fit=crop&q=80&w=800'
+      'https://picsum.photos/seed/dodowa-p9-main/800/1000',
+      'https://picsum.photos/seed/dodowa-p9-detail/800/1000'
     ],
     tag: 'Best Seller',
     description: 'Professional-grade pre-cut strips for the most common applications. Save time and ensure perfect application every time.',

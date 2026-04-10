@@ -362,7 +362,7 @@ const Hero = ({ t, onExplore }: { t: any, onExplore: () => void }) => {
       {/* Background Visuals */}
       <div className="absolute inset-0 z-0">
         <img 
-          src="https://images.unsplash.com/photo-1546519638-68e109498ffc?auto=format&fit=crop&q=80&w=1920" 
+          src="https://picsum.photos/seed/dodowa-hero/1920/1080" 
           alt="Athlete in motion" 
           className="w-full h-full object-cover opacity-50 grayscale"
           referrerPolicy="no-referrer"
@@ -444,7 +444,7 @@ const ProtectionSection = ({ t, onShopKnee, onShopWaist }: { t: any, onShopKnee:
             className="lg:col-span-8 relative h-[600px] overflow-hidden group"
           >
             <img 
-              src="https://images.unsplash.com/photo-1546519638-68e109498ffc?auto=format&fit=crop&q=80&w=1200" 
+              src="https://picsum.photos/seed/dodowa-knee-main/1200/800" 
               alt="Knee Protection" 
               className="w-full h-full object-cover opacity-70 grayscale group-hover:grayscale-0 transition-all duration-700"
               referrerPolicy="no-referrer"
@@ -469,7 +469,7 @@ const ProtectionSection = ({ t, onShopKnee, onShopWaist }: { t: any, onShopKnee:
             className="lg:col-span-4 relative h-[600px] overflow-hidden group"
           >
             <img 
-              src="https://images.unsplash.com/photo-1548690312-e3b507d17a47?auto=format&fit=crop&q=80&w=800" 
+              src="https://picsum.photos/seed/dodowa-waist-main/800/1000" 
               alt="Waist Protection" 
               className="w-full h-full object-cover opacity-70 grayscale group-hover:grayscale-0 transition-all duration-700"
               referrerPolicy="no-referrer"
@@ -500,7 +500,7 @@ const TapingSection = ({ t, onShopTaping }: { t: any, onShopTaping: () => void }
           <div className="order-2 lg:order-1">
             <div className="relative aspect-square bg-[var(--color-bg-secondary)] p-4">
               <img 
-                src="https://images.unsplash.com/photo-1582719201931-76395b09e209?auto=format&fit=crop&q=80&w=1000" 
+                src="https://picsum.photos/seed/dodowa-taping-action/1000/1000" 
                 alt="Taping Application" 
                 className="w-full h-full object-cover opacity-60 grayscale"
                 referrerPolicy="no-referrer"
@@ -549,10 +549,10 @@ const TapingSection = ({ t, onShopTaping }: { t: any, onShopTaping: () => void }
 
 const SportSection = ({ t, onExploreSport }: { t: any, onExploreSport: (sport: string) => void }) => {
   const sports = [
-    { id: 'running', title: t.sports.running, image: "https://images.unsplash.com/photo-1517438476312-10d79c077509?auto=format&fit=crop&q=80&w=800" },
-    { id: 'basketball', title: t.sports.basketball, image: "https://images.unsplash.com/photo-1546519638-68e109498ffc?auto=format&fit=crop&q=80&w=800" },
-    { id: 'frisbee', title: t.sports.frisbee, image: "https://images.unsplash.com/photo-1591117207239-788cd82e427d?auto=format&fit=crop&q=80&w=800" },
-    { id: 'football', title: t.sports.football, image: "https://images.unsplash.com/photo-1508098682722-e99c43a406b2?auto=format&fit=crop&q=80&w=800" },
+    { id: 'running', title: t.sports.running, image: "https://picsum.photos/seed/dodowa-sport-running/800/1000" },
+    { id: 'basketball', title: t.sports.basketball, image: "https://picsum.photos/seed/dodowa-sport-basketball/800/1000" },
+    { id: 'frisbee', title: t.sports.frisbee, image: "https://picsum.photos/seed/dodowa-sport-frisbee/800/1000" },
+    { id: 'football', title: t.sports.football, image: "https://picsum.photos/seed/dodowa-sport-football/800/1000" },
   ];
 
   return (
@@ -925,7 +925,7 @@ const Footer = ({ t, onNavigate }: { t: any, onNavigate: (type: string) => void 
     <div className="container mx-auto px-6">
       <div className="flex flex-col items-center text-center mb-20">
         <button onClick={() => window.scrollTo({ top: 0, behavior: 'smooth' })} className="text-4xl font-display text-neon-green tracking-normal mb-8 block">DODOWA</button>
-        <p className="text-[var(--color-text-primary)]/40 text-sm mb-12 whitespace-nowrap">
+        <p className="text-[var(--color-text-primary)]/40 text-sm mb-12 max-w-md mx-auto">
           {t.footer.desc}
         </p>
         
@@ -933,7 +933,6 @@ const Footer = ({ t, onNavigate }: { t: any, onNavigate: (type: string) => void 
           <button onClick={() => onNavigate('faq')} className="text-xs font-bold uppercase tracking-[0.3em] text-hot-pink hover:text-neon-green transition-colors">{t.nav.faq}</button>
           <button onClick={() => onNavigate('shippingReturns')} className="text-xs font-bold uppercase tracking-[0.3em] text-hot-pink hover:text-neon-green transition-colors">{t.footer.shippingReturns}</button>
           <button onClick={() => onNavigate('sizeGuide')} className="text-xs font-bold uppercase tracking-[0.3em] text-hot-pink hover:text-neon-green transition-colors">{t.footer.sizeGuide}</button>
-          <button onClick={() => onNavigate('faq')} className="text-xs font-bold uppercase tracking-[0.3em] text-hot-pink hover:text-neon-green transition-colors">{t.footer.contactUs}</button>
         </div>
 
         <div className="flex gap-8">
