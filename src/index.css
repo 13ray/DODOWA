@@ -1,0 +1,46 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Outfit:wght@300;400;500;600;700;800&family=Space+Grotesk:wght@300;400;500;600;700&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Inter", ui-sans-serif, system-ui, sans-serif;
+  --font-display: "Outfit", sans-serif;
+  --font-tech: "Space Grotesk", sans-serif;
+
+  --color-neon-green: #9CFF1A;
+  --color-hot-pink: #E82484;
+  --color-dodowa-black: #0A0A0A;
+  --color-dodowa-white: #F5F5F5;
+  --color-dodowa-gray: #1E1E1E;
+
+  --color-bg-primary: var(--color-dodowa-black);
+  --color-text-primary: var(--color-dodowa-white);
+  --color-bg-secondary: var(--color-dodowa-gray);
+  --color-border-subtle: rgba(255, 255, 255, 0.1);
+}
+
+@layer base {
+  body {
+    @apply bg-[var(--color-bg-primary)] text-[var(--color-text-primary)] font-sans antialiased transition-colors duration-300;
+  }
+
+  h1, h2, h3, h4, h5, h6 {
+    @apply font-display uppercase tracking-normal;
+  }
+}
+
+.glow-green {
+  box-shadow: 0 0 20px rgba(156, 255, 26, 0.3);
+}
+
+.glow-pink {
+  box-shadow: 0 0 20px rgba(232, 36, 132, 0.3);
+}
+
+.glow-red {
+  box-shadow: 0 0 30px rgba(255, 0, 0, 0.5);
+}
+
+.text-stroke {
+  -webkit-text-stroke: 1px currentColor;
+  color: transparent;
+}
