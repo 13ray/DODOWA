@@ -29,9 +29,9 @@ export const products: Product[] = [
     sport: ['basketball', 'running', 'football'],
     colors: ['black', 'white', 'gray'],
     useCase: ['protection', 'support'],
-    image: 'https://picsum.photos/seed/dodowa-p1-main/800/1000',
+    image: 'https://picsum.photos/seed/dodowa-panda-knee-support-knitted-detail/800/1000',
     images: [
-      'https://picsum.photos/seed/dodowa-p1-main/800/1000',
+      'https://picsum.photos/seed/dodowa-panda-knee-support-knitted-detail/800/1000',
       'https://picsum.photos/seed/dodowa-p1-detail-1/800/1000',
       'https://picsum.photos/seed/dodowa-p1-detail-2/800/1000',
       'https://picsum.photos/seed/dodowa-p1-wearing/800/1000'
@@ -59,9 +59,9 @@ export const products: Product[] = [
     sport: ['basketball', 'frisbee'],
     colors: ['neon-green', 'pink', 'black'],
     useCase: ['performance', 'protection'],
-    image: 'https://picsum.photos/seed/dodowa-p2-main/800/1000',
+    image: 'https://picsum.photos/seed/dodowa-color-knee-support-neon-green-athlete/800/1000',
     images: [
-      'https://picsum.photos/seed/dodowa-p2-main/800/1000',
+      'https://picsum.photos/seed/dodowa-color-knee-support-neon-green-athlete/800/1000',
       'https://picsum.photos/seed/dodowa-p2-detail-1/800/1000'
     ],
     tag: 'New',
@@ -84,10 +84,10 @@ export const products: Product[] = [
     sport: ['training'],
     colors: ['black', 'gray'],
     useCase: ['support', 'protection'],
-    image: 'https://images.unsplash.com/photo-1551698618-1dfe5d97d256?auto=format&fit=crop&q=80&w=800',
+    image: 'https://picsum.photos/seed/dodowa-professional-waist-support-belt-lifting/800/1000',
     images: [
-      'https://images.unsplash.com/photo-1551698618-1dfe5d97d256?auto=format&fit=crop&q=80&w=800',
-      'https://images.unsplash.com/photo-1517836357463-d25dfeac3438?auto=format&fit=crop&q=80&w=800'
+      'https://picsum.photos/seed/dodowa-professional-waist-support-belt-lifting/800/1000',
+      'https://picsum.photos/seed/dodowa-waist-support-detail-training/800/1000'
     ],
     tag: 'Sport Ready',
     description: 'Maximum core stability for heavy lifting and intense training. Our Professional Waist Support features dual-layer compression and reinforced stays to protect your lower back.',
@@ -109,9 +109,9 @@ export const products: Product[] = [
     sport: ['basketball', 'football'],
     colors: ['white'],
     useCase: ['protection', 'support'],
-    image: 'https://images.unsplash.com/photo-1591117207239-788cd82e427d?auto=format&fit=crop&q=80&w=800',
+    image: 'https://picsum.photos/seed/dodowa-white-zinc-oxide-sports-tape-roll/800/1000',
     images: [
-      'https://images.unsplash.com/photo-1591117207239-788cd82e427d?auto=format&fit=crop&q=80&w=800'
+      'https://picsum.photos/seed/dodowa-white-zinc-oxide-sports-tape-roll/800/1000'
     ],
     description: 'Classic zinc oxide sports tape for rigid joint immobilization. High tensile strength and excellent adhesion for reliable support during competition.',
     features: [
@@ -132,9 +132,9 @@ export const products: Product[] = [
     sport: ['running', 'frisbee'],
     colors: ['neon-green', 'pink', 'beige'],
     useCase: ['recovery', 'support'],
-    image: 'https://images.unsplash.com/photo-1591117207239-788cd82e427d?auto=format&fit=crop&q=80&w=800',
+    image: 'https://picsum.photos/seed/dodowa-ankle-kinesiology-tape-recovery-wrap/800/1000',
     images: [
-      'https://images.unsplash.com/photo-1591117207239-788cd82e427d?auto=format&fit=crop&q=80&w=800'
+      'https://picsum.photos/seed/dodowa-ankle-kinesiology-tape-recovery-wrap/800/1000'
     ],
     tag: 'Recovery',
     description: 'Designed to mimic the elasticity of human skin, our Kinesiology Tape facilitates natural healing by increasing blood flow around the muscle.',
@@ -156,9 +156,9 @@ export const products: Product[] = [
     sport: ['running', 'basketball', 'football'],
     colors: ['black', 'white', 'neon-green'],
     useCase: ['protection', 'support'],
-    image: 'https://picsum.photos/seed/dodowa-p6-main/800/1000',
+    image: 'https://picsum.photos/seed/dodowa-self-adhesive-sports-bandage-wrap-joint/800/1000',
     images: [
-      'https://picsum.photos/seed/dodowa-p6-main/800/1000',
+      'https://picsum.photos/seed/dodowa-self-adhesive-sports-bandage-wrap-joint/800/1000',
       'https://picsum.photos/seed/dodowa-p6-detail/800/1000'
     ],
     description: 'Cohesive bandage that sticks to itself, not to skin or hair. Perfect for quick wrapping and controlled compression.',
@@ -180,9 +180,9 @@ export const products: Product[] = [
     sport: ['running'],
     colors: ['neon-green', 'white'],
     useCase: ['performance', 'protection'],
-    image: 'https://picsum.photos/seed/dodowa-p7-main/800/1000',
+    image: 'https://picsum.photos/seed/dodowa-reflective-marathon-tape-night-running/800/1000',
     images: [
-      'https://picsum.photos/seed/dodowa-p7-main/800/1000',
+      'https://picsum.photos/seed/dodowa-reflective-marathon-tape-night-running/800/1000',
       'https://picsum.photos/seed/dodowa-p7-action/800/1000'
     ],
     tag: 'New',
@@ -205,9 +205,9 @@ export const products: Product[] = [
     sport: ['ski'],
     colors: ['pink', 'blue', 'black'],
     useCase: ['protection', 'performance'],
-    image: 'https://picsum.photos/seed/dodowa-p8-main/800/1000',
+    image: 'https://picsum.photos/seed/dodowa-ski-kinesiology-tape-cold-weather-support/800/1000',
     images: [
-      'https://picsum.photos/seed/dodowa-p8-main/800/1000'
+      'https://picsum.photos/seed/dodowa-ski-kinesiology-tape-cold-weather-support/800/1000'
     ],
     description: 'Extra-strength adhesive designed for cold and wet conditions. Ideal for winter sports and high-intensity activities.',
     features: [
@@ -228,9 +228,9 @@ export const products: Product[] = [
     sport: ['basketball', 'running'],
     colors: ['black', 'neon-green'],
     useCase: ['performance', 'support'],
-    image: 'https://picsum.photos/seed/dodowa-p9-main/800/1000',
+    image: 'https://picsum.photos/seed/dodowa-pre-cut-sports-tape-strips-application/800/1000',
     images: [
-      'https://picsum.photos/seed/dodowa-p9-main/800/1000',
+      'https://picsum.photos/seed/dodowa-pre-cut-sports-tape-strips-application/800/1000',
       'https://picsum.photos/seed/dodowa-p9-detail/800/1000'
     ],
     tag: 'Best Seller',

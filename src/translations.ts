@@ -279,7 +279,7 @@ export const translations = {
             desc: "A comprehensive guide to finding your perfect match.", 
             category: "Guide",
             date: "April 2026",
-            image: "https://picsum.photos/seed/dodowa-guide-knee/800/600",
+            image: "https://picsum.photos/seed/dodowa-guide-knee-support-selection/800/600",
             content: [
               "Choosing the right knee support starts with understanding how you move and what kind of support you actually need. Not every user needs the same level of protection. Some people want light daily support for general training, while others need more stability for high-impact sports such as basketball, running, or field-based movement.",
               "The first thing to consider is activity type. If your training involves jumping, landing, sprinting, or sudden changes in direction, your knee may benefit from a support that feels more stable and secure. For lighter workouts or general fitness, a softer and more flexible knitted support may feel more comfortable while still providing useful compression.",
@@ -294,7 +294,7 @@ export const translations = {
             desc: "Learn the best scenarios for applying kinesiology tape.", 
             category: "Guide",
             date: "April 2026",
-            image: "https://picsum.photos/seed/dodowa-guide-tape/800/600",
+            image: "https://picsum.photos/seed/dodowa-guide-kinesiology-tape-application/800/600",
             content: [
               "Sports tape is a useful option when you want flexible, targeted support without wearing a larger support brace. It is commonly used during training, recovery, and sport-specific preparation, especially when athletes want to support muscles, joints, or movement-heavy areas without adding too much bulk.",
               "One of the most common times to use sports tape is before training or competition. Runners may use tape to support the lower leg or knee area. Basketball players may prefer tape to reinforce certain movement zones before jumping and directional changes. Athletes in field sports often use tape when they want additional support during fast, repeated movement.",
@@ -309,7 +309,7 @@ export const translations = {
             desc: "Maximize your performance on the court.", 
             category: "Guide",
             date: "April 2026",
-            image: "https://picsum.photos/seed/dodowa-guide-basketball/800/600",
+            image: "https://picsum.photos/seed/dodowa-guide-basketball-training-knee-support/800/600",
             content: [
               "Basketball places heavy demands on the body. It combines jumping, landing, sprinting, stopping, cutting, and repeated changes of direction, which means players often need more than just skill and conditioning. Proper support gear can help improve comfort, stability, and confidence during training.",
               "For many players, the knee is one of the most important areas to protect. Repeated impact and directional stress can make knee support especially useful during practice, drills, and longer sessions. A good knee support should feel stable enough to provide reassurance, while still allowing quick movement and natural flexibility on the court.",
@@ -324,7 +324,7 @@ export const translations = {
             desc: "Essential tips for post-run muscle repair.", 
             category: "Guide",
             date: "April 2026",
-            image: "https://picsum.photos/seed/dodowa-guide-running/800/600",
+            image: "https://picsum.photos/seed/dodowa-guide-running-recovery-taping/800/600",
             content: [
               "Recovery is an essential part of running, but it is often overlooked. Many runners focus on mileage, speed, and consistency, yet long-term performance also depends on how well the body recovers between sessions. Good recovery habits help reduce strain, improve comfort, and support better training over time.",
               "One of the simplest recovery principles is to pay attention to repeated stress areas. For runners, that often includes the knees, calves, ankles, and surrounding muscle groups. After training, these areas may feel tight, tired, or less stable. That is why many runners use support gear or sports tape as part of their post-run routine.",
@@ -339,7 +339,7 @@ export const translations = {
             desc: "Core protection for your most intense workouts.", 
             category: "Guide",
             date: "April 2026",
-            image: "https://picsum.photos/seed/dodowa-guide-waist/800/600",
+            image: "https://picsum.photos/seed/dodowa-guide-waist-support-stability-training/800/600",
             content: [
               "Waist support can be a practical addition to training when users want more structure and confidence around the core area. During exercise, the waist and lower back are involved in many types of movement, from lifting and posture control to repeated training tension. The right waist support can help users feel more stable and supported without making movement feel overly restricted.",
               "Not every workout requires the same level of support. Some users may prefer waist support during strength training, while others use it during general exercise routines that place more pressure on the lower back or core region. The key is to choose a product that feels secure, comfortable, and suitable for the intensity of the activity.",
@@ -360,7 +360,7 @@ export const translations = {
             title: "Find the Best Knee Support for Sports", 
             category: "Performance", 
             date: "April 2026", 
-            image: "https://picsum.photos/seed/dodowa-article-knee/800/600",
+            image: "https://picsum.photos/seed/dodowa-article-best-knee-support-sports/800/600",
             content: [
               "Knee support is one of the most important forms of sports protection for athletes and active users. Whether you are running long distances, training in the gym, playing basketball, or moving through high-intensity field sports, your knees are constantly absorbing pressure, impact, and directional stress. Choosing the right knee support can help improve stability, increase comfort, and reduce the risk of strain during movement.",
               "At DODOWA Singapore, knee support is designed for real sports use. Rather than focusing only on rigid protection, DODOWA products aim to balance support, flexibility, and everyday wearability. This makes them suitable not only for competitive training, but also for regular exercise and active lifestyles.",
@@ -376,7 +376,7 @@ export const translations = {
             title: "How to Use Athletic Taping for Knees", 
             category: "Tutorial", 
             date: "April 2026", 
-            image: "https://picsum.photos/seed/dodowa-article-taping/800/600",
+            image: "https://picsum.photos/seed/dodowa-article-athletic-taping-tutorial-knee/800/600",
             content: [
               "Athletic taping is a useful way to provide extra support, stability, and confidence around the knee during sports and training. It is commonly used by runners, basketball players, field sport athletes, and active individuals who want additional reinforcement during movement. When applied properly, athletic tape can help support the knee area without the bulk of a larger support brace.",
               "The first step is understanding what taping is for. Athletic taping for knees is not meant to replace professional medical treatment, but it can be used as a practical support method during activity. Many users turn to taping when they want help with movement control, muscle support, joint awareness, or general confidence during training.",
@@ -393,7 +393,7 @@ export const translations = {
             title: "Find the Right Running Support Gear", 
             category: "Blog", 
             date: "April 2026", 
-            image: "https://picsum.photos/seed/dodowa-article-running/800/600",
+            image: "https://picsum.photos/seed/dodowa-article-running-support-gear-marathon/800/600",
             content: [
               "Running places repeated stress on the body, especially on the knees, lower legs, ankles, and surrounding muscles. Whether you are training for a marathon, building distance gradually, or simply running as part of a regular fitness routine, the right support gear can make a meaningful difference in both comfort and confidence. Good running support gear does not just protect the body. It also helps runners feel more stable, prepared, and focused during movement.",
               "The first thing to consider is where support is needed most. For many runners, the knee is a key area of concern because of repeated impact and motion. A well-fitted knee support can help create a more secure feeling during training while still allowing natural movement. This can be especially useful during longer runs or periods of increased mileage.",

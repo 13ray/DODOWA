@@ -36,7 +36,6 @@ import CommunityPage from './components/CommunityPage';
 import ArticlePage from './components/ArticlePage';
 import FAQPage from './components/FAQPage';
 import SizeGuidePage from './components/SizeGuidePage';
-import ShippingReturnsPage from './components/ShippingReturnsPage';
 import ProductDetailPage from './components/ProductDetailPage';
 import UserAccountPage from './components/UserAccountPage';
 import CartPage from './components/CartPage';
@@ -362,7 +361,7 @@ const Hero = ({ t, onExplore }: { t: any, onExplore: () => void }) => {
       {/* Background Visuals */}
       <div className="absolute inset-0 z-0">
         <img 
-          src="https://picsum.photos/seed/dodowa-hero/1920/1080" 
+          src="https://picsum.photos/seed/dodowa-hero-athlete-knee-support/1920/1080" 
           alt="Athlete in motion" 
           className="w-full h-full object-cover opacity-50 grayscale"
           referrerPolicy="no-referrer"
@@ -444,7 +443,7 @@ const ProtectionSection = ({ t, onShopKnee, onShopWaist }: { t: any, onShopKnee:
             className="lg:col-span-8 relative h-[600px] overflow-hidden group"
           >
             <img 
-              src="https://picsum.photos/seed/dodowa-knee-main/1200/800" 
+              src="https://picsum.photos/seed/dodowa-knee-support-athlete-running/1200/800" 
               alt="Knee Protection" 
               className="w-full h-full object-cover opacity-70 grayscale group-hover:grayscale-0 transition-all duration-700"
               referrerPolicy="no-referrer"
@@ -469,7 +468,7 @@ const ProtectionSection = ({ t, onShopKnee, onShopWaist }: { t: any, onShopKnee:
             className="lg:col-span-4 relative h-[600px] overflow-hidden group"
           >
             <img 
-              src="https://picsum.photos/seed/dodowa-waist-main/800/1000" 
+              src="https://picsum.photos/seed/dodowa-waist-support-belt-training/800/1000" 
               alt="Waist Protection" 
               className="w-full h-full object-cover opacity-70 grayscale group-hover:grayscale-0 transition-all duration-700"
               referrerPolicy="no-referrer"
@@ -500,7 +499,7 @@ const TapingSection = ({ t, onShopTaping }: { t: any, onShopTaping: () => void }
           <div className="order-2 lg:order-1">
             <div className="relative aspect-square bg-[var(--color-bg-secondary)] p-4">
               <img 
-                src="https://picsum.photos/seed/dodowa-taping-action/1000/1000" 
+                src="https://picsum.photos/seed/dodowa-kinesiology-tape-application-knee/1000/1000" 
                 alt="Taping Application" 
                 className="w-full h-full object-cover opacity-60 grayscale"
                 referrerPolicy="no-referrer"
@@ -549,10 +548,10 @@ const TapingSection = ({ t, onShopTaping }: { t: any, onShopTaping: () => void }
 
 const SportSection = ({ t, onExploreSport }: { t: any, onExploreSport: (sport: string) => void }) => {
   const sports = [
-    { id: 'running', title: t.sports.running, image: "https://picsum.photos/seed/dodowa-sport-running/800/1000" },
-    { id: 'basketball', title: t.sports.basketball, image: "https://picsum.photos/seed/dodowa-sport-basketball/800/1000" },
-    { id: 'frisbee', title: t.sports.frisbee, image: "https://picsum.photos/seed/dodowa-sport-frisbee/800/1000" },
-    { id: 'football', title: t.sports.football, image: "https://picsum.photos/seed/dodowa-sport-football/800/1000" },
+    { id: 'running', title: t.sports.running, image: "https://picsum.photos/seed/dodowa-runner-knee-support-track/800/1000" },
+    { id: 'basketball', title: t.sports.basketball, image: "https://picsum.photos/seed/dodowa-basketball-player-jumping-knee-support/800/1000" },
+    { id: 'frisbee', title: t.sports.frisbee, image: "https://picsum.photos/seed/dodowa-frisbee-player-lateral-movement-turf/800/1000" },
+    { id: 'football', title: t.sports.football, image: "https://picsum.photos/seed/dodowa-football-player-explosive-movement-support/800/1000" },
   ];
 
   return (
@@ -636,7 +635,7 @@ const TechSection = ({ t, onExplore }: { t: any, onExplore: () => void }) => {
           <div className="relative">
             <div className="aspect-square bg-[var(--color-bg-primary)] border border-[var(--color-text-primary)]/10 p-4 relative">
               <img 
-                src="https://images.unsplash.com/photo-1551698618-1dfe5d97d256?auto=format&fit=crop&q=80&w=1000" 
+                src="https://picsum.photos/seed/dodowa-sports-tech-material-knitted-structure/1000/1000" 
                 alt="Athlete training" 
                 className="w-full h-full object-cover opacity-50 grayscale"
                 referrerPolicy="no-referrer"
@@ -702,7 +701,7 @@ const ReviewsSection = ({ t }: { t: any }) => {
       user: "Jacob K.", 
       text: "I found my knee supports to be comfortable. Enough compression to not restrict movement. Did a...", 
       rating: 5,
-      image: "https://images.unsplash.com/photo-1546519638-68e109498ffc?auto=format&fit=crop&q=80&w=800",
+      image: "https://picsum.photos/seed/dodowa-review-selfie-knee-support/800/800",
       verified: true
     },
     { 
@@ -710,7 +709,7 @@ const ReviewsSection = ({ t }: { t: any }) => {
       user: "Simon H.", 
       text: "Following a recent knee injury and with an upcoming trip to the Lake District, I began searching...", 
       rating: 5,
-      image: "https://images.unsplash.com/photo-1551698618-1dfe5d97d256?auto=format&fit=crop&q=80&w=800",
+      image: "https://picsum.photos/seed/dodowa-review-mirror-selfie-training/800/800",
       verified: true
     },
     { 
@@ -718,7 +717,7 @@ const ReviewsSection = ({ t }: { t: any }) => {
       user: "Emma M.", 
       text: "Having suffered either soft tissue damage in my foot / a stress fracture, for the first 3 weeks I...", 
       rating: 5,
-      image: "https://images.unsplash.com/photo-1591117207239-788cd82e427d?auto=format&fit=crop&q=80&w=800",
+      image: "https://picsum.photos/seed/dodowa-review-friend-photo-active-lifestyle/800/800",
       verified: true
     },
     { 
@@ -726,7 +725,7 @@ const ReviewsSection = ({ t }: { t: any }) => {
       user: "Anonymous", 
       text: "Over trained causing knee pain. I had a race coming up which I didn't want to miss, this...", 
       rating: 5,
-      image: "https://images.unsplash.com/photo-1517438476312-10d79c077509?auto=format&fit=crop&q=80&w=800",
+      image: "https://picsum.photos/seed/dodowa-review-group-shot-athletes/800/800",
       verified: true
     },
   ];
@@ -931,7 +930,6 @@ const Footer = ({ t, onNavigate }: { t: any, onNavigate: (type: string) => void 
         
         <div className="flex flex-wrap justify-center gap-x-12 gap-y-6 mb-12">
           <button onClick={() => onNavigate('faq')} className="text-xs font-bold uppercase tracking-[0.3em] text-hot-pink hover:text-neon-green transition-colors">{t.nav.faq}</button>
-          <button onClick={() => onNavigate('shippingReturns')} className="text-xs font-bold uppercase tracking-[0.3em] text-hot-pink hover:text-neon-green transition-colors">{t.footer.shippingReturns}</button>
           <button onClick={() => onNavigate('sizeGuide')} className="text-xs font-bold uppercase tracking-[0.3em] text-hot-pink hover:text-neon-green transition-colors">{t.footer.sizeGuide}</button>
         </div>
 
@@ -957,6 +955,7 @@ export default function App() {
   const [collectionType, setCollectionType] = useState<string>('all');
   const [selectedArticleId, setSelectedArticleId] = useState<string | null>(null);
   const [selectedProduct, setSelectedProduct] = useState<any>(null);
+  const [faqTab, setFaqTab] = useState<'general' | 'shipping' | 'returns'>('general');
   const [hasShippingUpdates, setHasShippingUpdates] = useState(true);
   const t = translations.en;
 
@@ -976,7 +975,8 @@ export default function App() {
     window.scrollTo(0, 0);
   };
 
-  const navigateToFAQ = () => {
+  const navigateToFAQ = (tab: 'general' | 'shipping' | 'returns' = 'general') => {
+    setFaqTab(tab);
     setView('faq');
     window.scrollTo(0, 0);
   };
@@ -987,8 +987,7 @@ export default function App() {
   };
 
   const navigateToShippingReturns = () => {
-    setView('shippingReturns');
-    window.scrollTo(0, 0);
+    navigateToFAQ('shipping');
   };
 
   const navigateToArticle = (id: string) => {
@@ -1072,11 +1071,9 @@ export default function App() {
         ) : view === 'community' ? (
           <CommunityPage t={t} onReadArticle={navigateToArticle} />
         ) : view === 'faq' ? (
-          <FAQPage t={t} />
+          <FAQPage t={t} initialTab={faqTab} key={faqTab} />
         ) : view === 'sizeGuide' ? (
           <SizeGuidePage t={t} onShop={() => navigateToCollection('all')} />
-        ) : view === 'shippingReturns' ? (
-          <ShippingReturnsPage t={t} />
         ) : view === 'article' && selectedArticleId ? (
           <ArticlePage t={t} articleId={selectedArticleId} onBack={navigateToCommunity} onNavigateToArticle={navigateToArticle} />
         ) : view === 'product' && selectedProduct ? (
