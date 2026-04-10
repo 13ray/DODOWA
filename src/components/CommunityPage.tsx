@@ -17,11 +17,20 @@ import {
 interface CommunityPageProps {
   t: any;
   onReadArticle: (id: string) => void;
+  initialSection?: string;
 }
 
-const CommunityPage: React.FC<CommunityPageProps> = ({ t, onReadArticle }) => {
+const CommunityPage: React.FC<CommunityPageProps> = ({ t, onReadArticle, initialSection }) => {
   const [activeFaq, setActiveFaq] = useState<number | null>(null);
-  const [activeTab, setActiveTab] = useState('faq');
+  const [activeTab, setActiveTab] = useState(initialSection || 'faq');
+
+  React.useEffect(() => {
+    if (initialSection) {
+      setTimeout(() => {
+        scrollToSection(initialSection);
+      }, 100);
+    }
+  }, [initialSection]);
 
   const navItems = [
     { id: 'faq', label: t.communityPage.nav.faq, icon: <HelpCircle size={18} /> },

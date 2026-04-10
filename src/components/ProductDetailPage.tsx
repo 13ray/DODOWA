@@ -24,7 +24,6 @@ interface ProductDetailPageProps {
 }
 
 const ProductDetailPage: React.FC<ProductDetailPageProps> = ({ t, product, onNavigate }) => {
-  const [selectedImage, setSelectedImage] = useState(0);
   const [selectedColor, setSelectedColor] = useState(product.colors[0]);
   const [quantity, setQuantity] = useState(1);
   const [expandedSection, setExpandedSection] = useState<string | null>('description');
@@ -79,10 +78,9 @@ const ProductDetailPage: React.FC<ProductDetailPageProps> = ({ t, product, onNav
           <div className="space-y-6">
             <div className="relative aspect-[4/5] bg-[var(--color-bg-secondary)] overflow-hidden group cursor-zoom-in">
               <motion.img 
-                key={selectedImage}
                 initial={{ opacity: 0 }}
                 animate={{ opacity: 1 }}
-                src={product.images[selectedImage]} 
+                src={product.image} 
                 alt={product.name}
                 className="w-full h-full object-cover grayscale group-hover:grayscale-0 group-hover:scale-110 transition-all duration-700"
                 referrerPolicy="no-referrer"
@@ -92,18 +90,6 @@ const ProductDetailPage: React.FC<ProductDetailPageProps> = ({ t, product, onNav
                   {product.tag}
                 </div>
               )}
-            </div>
-            
-            <div className="grid grid-cols-4 gap-4">
-              {product.images.map((img, idx) => (
-                <button 
-                  key={idx}
-                  onClick={() => setSelectedImage(idx)}
-                  className={`aspect-square bg-[var(--color-bg-secondary)] overflow-hidden border-2 transition-all ${selectedImage === idx ? 'border-neon-green' : 'border-transparent opacity-60 hover:opacity-100'}`}
-                >
-                  <img src={img} alt={`${product.name} ${idx + 1}`} className="w-full h-full object-cover grayscale hover:grayscale-0 transition-all" referrerPolicy="no-referrer" />
-                </button>
-              ))}
             </div>
           </div>
 

@@ -33,13 +33,13 @@ const TechPage: React.FC<TechPageProps> = ({ t, onShop }) => {
   ];
 
   const images = [
-    "https://picsum.photos/seed/dodowa-tech-knitted/800/600",
-    "https://picsum.photos/seed/dodowa-tech-compression/800/600",
-    "https://picsum.photos/seed/dodowa-tech-breathable/800/600",
-    "https://picsum.photos/seed/dodowa-tech-recovery/800/600",
-    "https://picsum.photos/seed/dodowa-tech-taping/800/600",
-    "https://picsum.photos/seed/dodowa-tech-sport/800/600",
-    "https://picsum.photos/seed/dodowa-tech-style/800/600"
+    "https://images.unsplash.com/photo-1551698618-1dfe5d97d256?auto=format&fit=crop&q=80&w=800",
+    "https://images.unsplash.com/photo-1546519638-68e109498ffc?auto=format&fit=crop&q=80&w=800",
+    "https://images.unsplash.com/photo-1547447134-cd3f5c716030?auto=format&fit=crop&q=80&w=800",
+    "https://images.unsplash.com/photo-1558507652-2d9626c4e67a?auto=format&fit=crop&q=80&w=800",
+    "https://images.unsplash.com/photo-1476531131144-cbb11034992e?auto=format&fit=crop&q=80&w=800",
+    "https://images.unsplash.com/photo-1504450758481-7338eba7524a?auto=format&fit=crop&q=80&w=800",
+    "https://images.unsplash.com/photo-1520156584141-24bd239789c6?auto=format&fit=crop&q=80&w=800"
   ];
 
   useEffect(() => {

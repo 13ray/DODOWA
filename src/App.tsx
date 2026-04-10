@@ -361,9 +361,9 @@ const Hero = ({ t, onExplore }: { t: any, onExplore: () => void }) => {
       {/* Background Visuals */}
       <div className="absolute inset-0 z-0">
         <img 
-          src="https://picsum.photos/seed/dodowa-hero-athlete-knee-support/1920/1080" 
-          alt="Athlete in motion" 
-          className="w-full h-full object-cover opacity-50 grayscale"
+          src="https://images.unsplash.com/photo-1591117207239-788cd82e427d?auto=format&fit=crop&q=80&w=1920" 
+          alt="Ultimate Frisbee Action" 
+          className="w-full h-full object-cover opacity-40 grayscale brightness-75"
           referrerPolicy="no-referrer"
         />
         <div className="absolute inset-0 bg-gradient-to-t from-[var(--color-bg-primary)] via-transparent to-[var(--color-bg-primary)]/50" />
@@ -443,7 +443,7 @@ const ProtectionSection = ({ t, onShopKnee, onShopWaist }: { t: any, onShopKnee:
             className="lg:col-span-8 relative h-[600px] overflow-hidden group"
           >
             <img 
-              src="https://picsum.photos/seed/dodowa-knee-support-athlete-running/1200/800" 
+              src="https://images.unsplash.com/photo-1504450758481-7338eba7524a?auto=format&fit=crop&q=80&w=1200" 
               alt="Knee Protection" 
               className="w-full h-full object-cover opacity-70 grayscale group-hover:grayscale-0 transition-all duration-700"
               referrerPolicy="no-referrer"
@@ -468,7 +468,7 @@ const ProtectionSection = ({ t, onShopKnee, onShopWaist }: { t: any, onShopKnee:
             className="lg:col-span-4 relative h-[600px] overflow-hidden group"
           >
             <img 
-              src="https://picsum.photos/seed/dodowa-waist-support-belt-training/800/1000" 
+              src="https://images.unsplash.com/photo-1520156584141-24bd239789c6?auto=format&fit=crop&q=80&w=800" 
               alt="Waist Protection" 
               className="w-full h-full object-cover opacity-70 grayscale group-hover:grayscale-0 transition-all duration-700"
               referrerPolicy="no-referrer"
@@ -499,7 +499,7 @@ const TapingSection = ({ t, onShopTaping }: { t: any, onShopTaping: () => void }
           <div className="order-2 lg:order-1">
             <div className="relative aspect-square bg-[var(--color-bg-secondary)] p-4">
               <img 
-                src="https://picsum.photos/seed/dodowa-kinesiology-tape-application-knee/1000/1000" 
+                src="https://images.unsplash.com/photo-1591117207239-788cd82e427d?auto=format&fit=crop&q=80&w=1000" 
                 alt="Taping Application" 
                 className="w-full h-full object-cover opacity-60 grayscale"
                 referrerPolicy="no-referrer"
@@ -548,10 +548,10 @@ const TapingSection = ({ t, onShopTaping }: { t: any, onShopTaping: () => void }
 
 const SportSection = ({ t, onExploreSport }: { t: any, onExploreSport: (sport: string) => void }) => {
   const sports = [
-    { id: 'running', title: t.sports.running, image: "https://picsum.photos/seed/dodowa-runner-knee-support-track/800/1000" },
-    { id: 'basketball', title: t.sports.basketball, image: "https://picsum.photos/seed/dodowa-basketball-player-jumping-knee-support/800/1000" },
-    { id: 'frisbee', title: t.sports.frisbee, image: "https://picsum.photos/seed/dodowa-frisbee-player-lateral-movement-turf/800/1000" },
-    { id: 'football', title: t.sports.football, image: "https://picsum.photos/seed/dodowa-football-player-explosive-movement-support/800/1000" },
+    { id: 'running', title: t.sports.running, image: "https://images.unsplash.com/photo-1551698618-1dfe5d97d256?auto=format&fit=crop&q=80&w=800" },
+    { id: 'basketball', title: t.sports.basketball, image: "https://images.unsplash.com/photo-1546519638-68e109498ffc?auto=format&fit=crop&q=80&w=800" },
+    { id: 'frisbee', title: t.sports.frisbee, image: "https://images.unsplash.com/photo-1558507652-2d9626c4e67a?auto=format&fit=crop&q=80&w=800" },
+    { id: 'football', title: t.sports.football, image: "https://images.unsplash.com/photo-1547447134-cd3f5c716030?auto=format&fit=crop&q=80&w=800" },
   ];
 
   return (
@@ -635,7 +635,7 @@ const TechSection = ({ t, onExplore }: { t: any, onExplore: () => void }) => {
           <div className="relative">
             <div className="aspect-square bg-[var(--color-bg-primary)] border border-[var(--color-text-primary)]/10 p-4 relative">
               <img 
-                src="https://picsum.photos/seed/dodowa-sports-tech-material-knitted-structure/1000/1000" 
+                src="https://images.unsplash.com/photo-1517836357463-d25dfeac3438?auto=format&fit=crop&q=80&w=1000" 
                 alt="Athlete training" 
                 className="w-full h-full object-cover opacity-50 grayscale"
                 referrerPolicy="no-referrer"
@@ -694,14 +694,14 @@ const ArticlesSection = ({ t, onReadArticle }: { t: any, onReadArticle: (id: str
   );
 };
 
-const ReviewsSection = ({ t }: { t: any }) => {
+const ReviewsSection = ({ t, onViewMore }: { t: any, onViewMore: () => void }) => {
   const reviews = [
     { 
       id: 1, 
       user: "Jacob K.", 
       text: "I found my knee supports to be comfortable. Enough compression to not restrict movement. Did a...", 
       rating: 5,
-      image: "https://picsum.photos/seed/dodowa-review-selfie-knee-support/800/800",
+      image: "https://images.unsplash.com/photo-1517438476312-10d79c077509?auto=format&fit=crop&q=80&w=800",
       verified: true
     },
     { 
@@ -709,7 +709,7 @@ const ReviewsSection = ({ t }: { t: any }) => {
       user: "Simon H.", 
       text: "Following a recent knee injury and with an upcoming trip to the Lake District, I began searching...", 
       rating: 5,
-      image: "https://picsum.photos/seed/dodowa-review-mirror-selfie-training/800/800",
+      image: "https://images.unsplash.com/photo-1551698618-1dfe5d97d256?auto=format&fit=crop&q=80&w=800",
       verified: true
     },
     { 
@@ -717,7 +717,7 @@ const ReviewsSection = ({ t }: { t: any }) => {
       user: "Emma M.", 
       text: "Having suffered either soft tissue damage in my foot / a stress fracture, for the first 3 weeks I...", 
       rating: 5,
-      image: "https://picsum.photos/seed/dodowa-review-friend-photo-active-lifestyle/800/800",
+      image: "https://images.unsplash.com/photo-1547447134-cd3f5c716030?auto=format&fit=crop&q=80&w=800",
       verified: true
     },
     { 
@@ -725,7 +725,7 @@ const ReviewsSection = ({ t }: { t: any }) => {
       user: "Anonymous", 
       text: "Over trained causing knee pain. I had a race coming up which I didn't want to miss, this...", 
       rating: 5,
-      image: "https://picsum.photos/seed/dodowa-review-group-shot-athletes/800/800",
+      image: "https://images.unsplash.com/photo-1591117207239-788cd82e427d?auto=format&fit=crop&q=80&w=800",
       verified: true
     },
   ];
@@ -805,7 +805,10 @@ const ReviewsSection = ({ t }: { t: any }) => {
         </div>
 
         <div className="mt-16 flex justify-center">
-          <button className="group flex items-center gap-4 bg-[var(--color-text-primary)]/5 hover:bg-neon-green hover:text-dodowa-black px-8 py-4 rounded-full transition-all duration-300">
+          <button 
+            onClick={onViewMore}
+            className="group flex items-center gap-4 bg-[var(--color-text-primary)]/5 hover:bg-neon-green hover:text-dodowa-black px-8 py-4 rounded-full transition-all duration-300"
+          >
             <span className="text-xs font-bold uppercase tracking-widest">{t.reviews.loadMore}</span>
             <div className="w-8 h-8 rounded-full border border-[var(--color-text-primary)]/20 flex items-center justify-center group-hover:border-dodowa-black">
               <ChevronRight size={16} />
@@ -956,6 +959,7 @@ export default function App() {
   const [selectedArticleId, setSelectedArticleId] = useState<string | null>(null);
   const [selectedProduct, setSelectedProduct] = useState<any>(null);
   const [faqTab, setFaqTab] = useState<'general' | 'shipping' | 'returns'>('general');
+  const [communitySection, setCommunitySection] = useState<string>('faq');
   const [hasShippingUpdates, setHasShippingUpdates] = useState(true);
   const t = translations.en;
 
@@ -970,7 +974,8 @@ export default function App() {
     window.scrollTo(0, 0);
   };
 
-  const navigateToCommunity = () => {
+  const navigateToCommunity = (section: string = 'faq') => {
+    setCommunitySection(section);
     setView('community');
     window.scrollTo(0, 0);
   };
@@ -1062,14 +1067,14 @@ export default function App() {
 
             <TechSection t={t} onExplore={navigateToTech} />
             <ArticlesSection t={t} onReadArticle={navigateToArticle} />
-            <ReviewsSection t={t} />
+            <ReviewsSection t={t} onViewMore={() => navigateToCommunity('reviews')} />
           </>
         ) : view === 'collection' ? (
           <CollectionPage t={t} initialCollection={collectionType} key={collectionType} onNavigate={handleNavigation} />
         ) : view === 'tech' ? (
           <TechPage t={t} onShop={() => navigateToCollection('all')} />
         ) : view === 'community' ? (
-          <CommunityPage t={t} onReadArticle={navigateToArticle} />
+          <CommunityPage t={t} onReadArticle={navigateToArticle} initialSection={communitySection} />
         ) : view === 'faq' ? (
           <FAQPage t={t} initialTab={faqTab} key={faqTab} />
         ) : view === 'sizeGuide' ? (

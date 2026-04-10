@@ -9,7 +9,6 @@ export interface Product {
   colors: string[];
   useCase: string[];
   image: string;
-  images: string[];
   tag?: string;
   description: string;
   features: string[];
@@ -30,12 +29,6 @@ export const products: Product[] = [
     colors: ['black', 'white', 'gray'],
     useCase: ['protection', 'support'],
     image: 'https://picsum.photos/seed/dodowa-panda-knee-support-knitted-detail/800/1000',
-    images: [
-      'https://picsum.photos/seed/dodowa-panda-knee-support-knitted-detail/800/1000',
-      'https://picsum.photos/seed/dodowa-p1-detail-1/800/1000',
-      'https://picsum.photos/seed/dodowa-p1-detail-2/800/1000',
-      'https://picsum.photos/seed/dodowa-p1-wearing/800/1000'
-    ],
     tag: 'Best Seller',
     description: 'Engineered for elite performance, the Panda 3D Knitted Knee Support provides targeted compression and stability without sacrificing mobility. The advanced 3D knitting technology ensures a perfect anatomical fit.',
     features: [
@@ -60,10 +53,6 @@ export const products: Product[] = [
     colors: ['neon-green', 'pink', 'black'],
     useCase: ['performance', 'protection'],
     image: 'https://picsum.photos/seed/dodowa-color-knee-support-neon-green-athlete/800/1000',
-    images: [
-      'https://picsum.photos/seed/dodowa-color-knee-support-neon-green-athlete/800/1000',
-      'https://picsum.photos/seed/dodowa-p2-detail-1/800/1000'
-    ],
     tag: 'New',
     description: 'Vibrant performance meets professional protection. Our Color Series knee supports offer the same high-level stability with a bold aesthetic for athletes who want to stand out.',
     features: [
@@ -85,10 +74,6 @@ export const products: Product[] = [
     colors: ['black', 'gray'],
     useCase: ['support', 'protection'],
     image: 'https://picsum.photos/seed/dodowa-professional-waist-support-belt-lifting/800/1000',
-    images: [
-      'https://picsum.photos/seed/dodowa-professional-waist-support-belt-lifting/800/1000',
-      'https://picsum.photos/seed/dodowa-waist-support-detail-training/800/1000'
-    ],
     tag: 'Sport Ready',
     description: 'Maximum core stability for heavy lifting and intense training. Our Professional Waist Support features dual-layer compression and reinforced stays to protect your lower back.',
     features: [
@@ -110,9 +95,6 @@ export const products: Product[] = [
     colors: ['white'],
     useCase: ['protection', 'support'],
     image: 'https://picsum.photos/seed/dodowa-white-zinc-oxide-sports-tape-roll/800/1000',
-    images: [
-      'https://picsum.photos/seed/dodowa-white-zinc-oxide-sports-tape-roll/800/1000'
-    ],
     description: 'Classic zinc oxide sports tape for rigid joint immobilization. High tensile strength and excellent adhesion for reliable support during competition.',
     features: [
       '100% cotton substrate',
@@ -133,9 +115,6 @@ export const products: Product[] = [
     colors: ['neon-green', 'pink', 'beige'],
     useCase: ['recovery', 'support'],
     image: 'https://picsum.photos/seed/dodowa-ankle-kinesiology-tape-recovery-wrap/800/1000',
-    images: [
-      'https://picsum.photos/seed/dodowa-ankle-kinesiology-tape-recovery-wrap/800/1000'
-    ],
     tag: 'Recovery',
     description: 'Designed to mimic the elasticity of human skin, our Kinesiology Tape facilitates natural healing by increasing blood flow around the muscle.',
     features: [
@@ -157,10 +136,6 @@ export const products: Product[] = [
     colors: ['black', 'white', 'neon-green'],
     useCase: ['protection', 'support'],
     image: 'https://picsum.photos/seed/dodowa-self-adhesive-sports-bandage-wrap-joint/800/1000',
-    images: [
-      'https://picsum.photos/seed/dodowa-self-adhesive-sports-bandage-wrap-joint/800/1000',
-      'https://picsum.photos/seed/dodowa-p6-detail/800/1000'
-    ],
     description: 'Cohesive bandage that sticks to itself, not to skin or hair. Perfect for quick wrapping and controlled compression.',
     features: [
       'No clips or fasteners required',
@@ -181,10 +156,6 @@ export const products: Product[] = [
     colors: ['neon-green', 'white'],
     useCase: ['performance', 'protection'],
     image: 'https://picsum.photos/seed/dodowa-reflective-marathon-tape-night-running/800/1000',
-    images: [
-      'https://picsum.photos/seed/dodowa-reflective-marathon-tape-night-running/800/1000',
-      'https://picsum.photos/seed/dodowa-p7-action/800/1000'
-    ],
     tag: 'New',
     description: 'Stay visible and supported during night runs. Our reflective tape combines kinesiology benefits with high-visibility elements.',
     features: [
@@ -206,9 +177,6 @@ export const products: Product[] = [
     colors: ['pink', 'blue', 'black'],
     useCase: ['protection', 'performance'],
     image: 'https://picsum.photos/seed/dodowa-ski-kinesiology-tape-cold-weather-support/800/1000',
-    images: [
-      'https://picsum.photos/seed/dodowa-ski-kinesiology-tape-cold-weather-support/800/1000'
-    ],
     description: 'Extra-strength adhesive designed for cold and wet conditions. Ideal for winter sports and high-intensity activities.',
     features: [
       'Cold-weather optimized adhesive',
@@ -229,10 +197,6 @@ export const products: Product[] = [
     colors: ['black', 'neon-green'],
     useCase: ['performance', 'support'],
     image: 'https://picsum.photos/seed/dodowa-pre-cut-sports-tape-strips-application/800/1000',
-    images: [
-      'https://picsum.photos/seed/dodowa-pre-cut-sports-tape-strips-application/800/1000',
-      'https://picsum.photos/seed/dodowa-p9-detail/800/1000'
-    ],
     tag: 'Best Seller',
     description: 'Professional-grade pre-cut strips for the most common applications. Save time and ensure perfect application every time.',
     features: [
