@@ -80,7 +80,7 @@ const ProductDetailPage: React.FC<ProductDetailPageProps> = ({ t, product, onNav
               <motion.img 
                 initial={{ opacity: 0 }}
                 animate={{ opacity: 1 }}
-                src={product.image} 
+                src="/kneeblack.jpg"
                 alt={product.name}
                 className="w-full h-full object-cover grayscale group-hover:grayscale-0 group-hover:scale-110 transition-all duration-700"
                 referrerPolicy="no-referrer"

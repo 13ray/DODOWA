@@ -361,7 +361,7 @@ const Hero = ({ t, onExplore }: { t: any, onExplore: () => void }) => {
       {/* Background Visuals */}
       <div className="absolute inset-0 z-0">
         <img 
-          src="https://images.unsplash.com/photo-1591117207239-788cd82e427d?auto=format&fit=crop&q=80&w=1920" 
+          src="/land.jpg" 
           alt="Ultimate Frisbee Action" 
           className="w-full h-full object-cover opacity-40 grayscale brightness-75"
           referrerPolicy="no-referrer"
@@ -443,7 +443,7 @@ const ProtectionSection = ({ t, onShopKnee, onShopWaist }: { t: any, onShopKnee:
             className="lg:col-span-8 relative h-[600px] overflow-hidden group"
           >
             <img 
-              src="https://images.unsplash.com/photo-1504450758481-7338eba7524a?auto=format&fit=crop&q=80&w=1200" 
+              src="/landing.jpg" 
               alt="Knee Protection" 
               className="w-full h-full object-cover opacity-70 grayscale group-hover:grayscale-0 transition-all duration-700"
               referrerPolicy="no-referrer"
@@ -468,7 +468,7 @@ const ProtectionSection = ({ t, onShopKnee, onShopWaist }: { t: any, onShopKnee:
             className="lg:col-span-4 relative h-[600px] overflow-hidden group"
           >
             <img 
-              src="https://images.unsplash.com/photo-1520156584141-24bd239789c6?auto=format&fit=crop&q=80&w=800" 
+              src="/waisttt.jpg" 
               alt="Waist Protection" 
               className="w-full h-full object-cover opacity-70 grayscale group-hover:grayscale-0 transition-all duration-700"
               referrerPolicy="no-referrer"
@@ -499,7 +499,7 @@ const TapingSection = ({ t, onShopTaping }: { t: any, onShopTaping: () => void }
           <div className="order-2 lg:order-1">
             <div className="relative aspect-square bg-[var(--color-bg-secondary)] p-4">
               <img 
-                src="https://images.unsplash.com/photo-1591117207239-788cd82e427d?auto=format&fit=crop&q=80&w=1000" 
+                src="/tape2.jpg" 
                 alt="Taping Application" 
                 className="w-full h-full object-cover opacity-60 grayscale"
                 referrerPolicy="no-referrer"
@@ -548,10 +548,10 @@ const TapingSection = ({ t, onShopTaping }: { t: any, onShopTaping: () => void }
 
 const SportSection = ({ t, onExploreSport }: { t: any, onExploreSport: (sport: string) => void }) => {
   const sports = [
-    { id: 'running', title: t.sports.running, image: "https://images.unsplash.com/photo-1551698618-1dfe5d97d256?auto=format&fit=crop&q=80&w=800" },
-    { id: 'basketball', title: t.sports.basketball, image: "https://images.unsplash.com/photo-1546519638-68e109498ffc?auto=format&fit=crop&q=80&w=800" },
-    { id: 'frisbee', title: t.sports.frisbee, image: "https://images.unsplash.com/photo-1558507652-2d9626c4e67a?auto=format&fit=crop&q=80&w=800" },
-    { id: 'football', title: t.sports.football, image: "https://images.unsplash.com/photo-1547447134-cd3f5c716030?auto=format&fit=crop&q=80&w=800" },
+    { id: 'running', title: t.sports.running, image: "/1.jpg" },
+    { id: 'basketball', title: t.sports.basketball, image: "/2.jpg" },
+    { id: 'frisbee', title: t.sports.frisbee, image: "/4.jpg" },
+    { id: 'football', title: t.sports.football, image: "/5.jpg" },
   ];
 
   return (
@@ -571,7 +571,7 @@ const SportSection = ({ t, onExploreSport }: { t: any, onExploreSport: (sport: s
               className="group relative h-[600px] overflow-hidden cursor-pointer"
             >
               <img 
-                src={sport.image} 
+                src="/1.jpg"
                 alt={sport.title} 
                 className="w-full h-full object-cover opacity-50 grayscale group-hover:grayscale-0 group-hover:scale-110 transition-all duration-700"
                 referrerPolicy="no-referrer"
@@ -635,7 +635,7 @@ const TechSection = ({ t, onExplore }: { t: any, onExplore: () => void }) => {
           <div className="relative">
             <div className="aspect-square bg-[var(--color-bg-primary)] border border-[var(--color-text-primary)]/10 p-4 relative">
               <img 
-                src="https://images.unsplash.com/photo-1517836357463-d25dfeac3438?auto=format&fit=crop&q=80&w=1000" 
+                src="/7.jpg" 
                 alt="Athlete training" 
                 className="w-full h-full object-cover opacity-50 grayscale"
                 referrerPolicy="no-referrer"
@@ -725,7 +725,7 @@ const ReviewsSection = ({ t, onViewMore }: { t: any, onViewMore: () => void }) =
       user: "Anonymous", 
       text: "Over trained causing knee pain. I had a race coming up which I didn't want to miss, this...", 
       rating: 5,
-      image: "https://images.unsplash.com/photo-1591117207239-788cd82e427d?auto=format&fit=crop&q=80&w=800",
+      image: "/6.jpg",
       verified: true
     },
   ];
